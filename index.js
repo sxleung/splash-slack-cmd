@@ -27,8 +27,8 @@ const url = require('url');
 
 // Store our app's ID and Secret. These we got from Step 1. 
 // For this POC, we'll keep your API credentials right here. But for an actual app, you'll want to  store them securely in environment variables. 
-var clientId = '381957551717.382997388977';
-var clientSecret = 'a2bda3befed34ab69ff3ad43606d444b';
+var clientId = '';
+var clientSecret = '';
 
 // Instantiates Express and assigns our app variable to it
 var app = express();
@@ -43,11 +43,11 @@ const PORT=4390;
 /// splash constants hardcoded 
 /// change later
 
-const splash_client_id='100064_e272c5b0d9e1243e8309e5acf432ca4f51c7dfac359b6160751914dd3390afb7';
-const splash_client_secret='9eb576a69d3fbaecd1bf044c5b63ab06476cca6f7a488364a1a2a61c7dfdc946';
+const splash_client_id='';
+const splash_client_secret='';
 const splash_api_url='https://prod-api.splashthat.com';
 const splash_email='sxleung@gmail.com';
-const splash_password='BamadEabthyros2';
+const splash_password='';
 
 //using globals to save time
 
